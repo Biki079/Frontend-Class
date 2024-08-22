@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Webpage</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+     <link rel="stylesheet" href="wepage.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Nature</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section" id="home">
+        <div class="container">
+            <h1 class="display-4">Nature of Nepal</h1>
+            <p class="lead">Feel The Beauty Of Nature</p>
+        </div>
+    </header>
+
+    <!-- Gallery Section -->
+    <main class="container mt-5" id="gallery">
+        <h2 class="mb-4">Gallery</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="Image/wepage1.jpg" class="card-img-top" alt="Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Phewa Lake</h5>
+                        <p class="card-text">Pokhara, Nepal, is a stunning destination known for its breathtaking natural beauty. Nestled in the foothills of the Himalayas, the city offers panoramic views of snow-capped peaks, including the majestic Annapurna and Machapuchare mountains. The serene Phewa Lake, with its reflective waters and charming lakeside ambiance, adds to the region's tranquil allure. Surrounded by lush green hills and cascading waterfalls, Pokhara is a haven for nature lovers and adventure enthusiasts alike. The city's vibrant landscapes, combined with its peaceful atmosphere, create a picturesque escape from the everyday hustle.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="Image/webpage2.jpg" class="card-img-top" alt="Image 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Ghandruk</h5>
+                        <p class="card-text">Ghandruk,a picturesque village in Nepal, is renowned for its natural beauty and stunning mountain views. Perched in the Annapurna region, it offers breathtaking panoramas of the Annapurna and Dhaulagiri ranges. The village is surrounded by lush terraced fields, dense forests, and vibrant rhododendron forests, which come alive with color in the spring. Ghandruk’s traditional Gurung houses and serene environment create a tranquil retreat, making it an ideal spot for trekkers and nature enthusiasts to experience the charm of the Himalayas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="Image/webpage3.jpg" class="card-img-top" alt="Image 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Tiger</h5>
+                        <p class="card-text"> Nepal is renowned for its remarkable natural beauty, characterized by lush greenery and diverse wildlife. Located in the Terai region, it features the vast and verdant expanse of the Bardia National Park. This park is a haven for nature enthusiasts, offering expansive grasslands, dense forests, and meandering rivers. The park is home to a rich array of wildlife, including the elusive Bengal tiger, one of the park’s major attractions. Visitors can experience the serene landscape through jungle safaris and riverboat tours, immersing themselves in the tranquil beauty and vibrant biodiversity of the region.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- About Us Section -->
+    <section class="section-padding bg-light" id="about">
+        <div class="container">
+            <h2 class="mb-4">About Us</h2>
+            <p>Welcome to our website dedicated to showcasing the beauty of Nepal. Our mission is to provide you with a glimpse into the stunning landscapes, vibrant culture, and unique experiences that Nepal has to offer. Whether you're looking for travel inspiration or information about Nepal's natural wonders, we've got you covered. Join us on a journey through some of the most breathtaking locations in the world.</p>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="section-padding" id="contact">
+        <div class="container">
+            <h2 class="mb-4">Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Nepal Nature</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

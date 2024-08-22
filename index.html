@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Home</h1>
+        <nav>
+            <ul>
+                <li><a href="gallery.html">Anime Gallery</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="webpage.html">Nature</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section1">
+            <h2>Section 1</h2>
+            <p>This is a paragraph within section 1.</p>
+            <img src="Image/element.png" alt="Logo">
+        </section>
+
+        <section id="section2">
+            <h2>Section 2</h2>
+            <p>This is a paragraph within section 2.</p>
+            <ul>
+                <li>Unordered List Item 1</li>
+                <li>Unordered List Item 2</li>
+            </ul>
+            <ol>
+                <li>Ordered List Item 1</li>
+                <li>Ordered List Item 2</li>
+            </ol>
+        </section>
+
+        <section id="section3">
+            <h2>Section 3</h2>
+            <article>
+                <h3>Article Heading</h3>
+                <p>This is an article.</p>
+            </article>
+            <aside>
+                <p>This is an aside, related to the article.</p>
+            </aside>
+        </section>
+    </main>
+
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>Contact Form</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <label for="color">Choose a color:</label>
+            <select id="color" name="color">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+            </select>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+
+    <section>
+        <h2>Table Section</h2>
+        <table>
+            <caption>Table Caption</caption>
+            <thead>
+                <tr>
+                    <th>Table Header 1</th>
+                    <th>Table Header 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Data 1</td>
+                    <td>Data 2</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <figure>
+        <img src="Image/picture-element_224214efe3-png.avif" alt="Example Figure">
+        <figcaption>Picture Elements</figcaption>
+    </figure>
+
+    <section>
+        <h2>Multimedia</h2>
+        <audio controls>
+            <source src="Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <video controls>
+            <source src="Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+    <iframe src="https://example.com" title="Example iframe"></iframe>
+
+    <section>
+        <h2>Canvas and SVG</h2>
+        <!-- <canvas id="myCanvas" width="300" height="200"></canvas> -->
+        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #201f1f;"></canvas>
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var context = canvas.getContext("2d");
+        context.fillStyle = "black";
+        context.fillRect(20, 10, 160, 80);
+    </script>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="white" />
+        </svg>
+    </section>
+
+    <section>
+        <h2>Text Emphasis</h2>
+        <p><strong>Important text</strong></p>
+        <p><em>Emphasized text</em></p>
+        <p>HTML Elements</p>
+        <hr>
+        <p>Basic Elements</p>
+    </section>
+
+    <footer>
+        <p>&copy; Bikash K.C.</p>
+    </footer>
+
+</body>
+</html>
